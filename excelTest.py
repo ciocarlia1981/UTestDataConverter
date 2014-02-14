@@ -15,7 +15,7 @@ headerRow = 2
 #print taskSheet.ncols
 
 
-ptData = []
+participants = []
 
 
 
@@ -24,7 +24,7 @@ def getBackgroundSheet():
     pass
 
 def getParticipants():
-    participants = []
+    global participants
     for rowNumber in range(2, backgroundSheet.nrows):
         testDate = backgroundSheet.cell_value(rowNumber, 2)
         if testDate:
