@@ -10,7 +10,7 @@ backgroundSheet = book.sheet_by_name(backgroundSheetName)
 
 
 
-headerRow = 2
+headerRow = 3
 
 #print taskSheet.ncols
 
