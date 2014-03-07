@@ -1,13 +1,11 @@
 import xlrd
 import re
 
-
 book = xlrd.open_workbook("testDataSheet2.xls")
 
 backgroundSheetName = "Background"
 
 backgroundSheet = book.sheet_by_name(backgroundSheetName)
-
 
 
 headerRow = 3
@@ -16,8 +14,6 @@ headerRow = 3
 
 
 participants = []
-
-
 
 
 def getBackgroundSheet():
